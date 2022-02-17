@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post" asp-action="upload" enctype="multipart/form-data">
+    <label for="files">Select files:</label>
+    <input type="file" id="files" name="files" multiple><br><br>
+    <input class="btn btn-success" type="submit">
+</form>
